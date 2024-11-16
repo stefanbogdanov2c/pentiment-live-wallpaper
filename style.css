@@ -1,3 +1,31 @@
 * {
   background-color: #e3d9ca;
 }
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#clock {
+  width: 40vw;
+  height: 80vh;
+}
+
+#pointer {
+  width: 5vw;
+  height: 8vh;
+}
