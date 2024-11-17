@@ -6,12 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pentiment Live Wallpaper</title>
   <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/parallax-js@3.1.0/dist/parallax.min.js"></script>
+
 </head>
 
 <body>
-  <div class="container">
-    <img id="pointer" src="assets/time-pointer.png" alt="pentiment time poiner image">
-    <div class="clock-wrapper">
+  <div class="container" data-depth="0.5">
+    <div class="clock-wrapper" data-depth="0.3">
+      <img id="pointer" src="assets/time-pointer.png" alt="pentiment time pointer image">
       <img id="clock" src="assets/clock.png" alt="pentiment clock image">
     </div>
   </div>
