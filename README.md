@@ -2,7 +2,7 @@
 
 https://github.com/user-attachments/assets/e9d201b1-15f3-4a05-a834-1126969d162f
 
-You can preview the wallpaper [here](https://stefanbogdanov2c.github.io/Pentiment-Wallpaper/).
+You can preview the wallpaper [here](https://stefanbogdanov2c.github.io/pentiment-wallpaper/).
 
 This repo serves as a playground for me trying to learn how to make a live wallpaper using parallax.
 
