@@ -5,14 +5,10 @@ function rotateClock() {
   const hours = now.getHours();
   const minutes = now.getMinutes();
   const seconds = now.getSeconds();
-  console.log(hours);
-
-  // Calculate total degrees for the current time (24-hour clock, 360° rotation)
-  const totalDegrees = hours * 15 + minutes * 0.25;
-  // console.log(totalDegrees);
+  const totalDegrees = hours * 15 + minutes * 0.25 + seconds * 0.0041666666666667;
   clock.style.transform = `rotate(${0-totalDegrees}deg)`;
 }
 
-setInterval(rotateClock, 60000);
+setInterval(rotateClock, 10000);
 
 rotateClock();
