@@ -52,3 +52,20 @@ img {
   object-fit: cover; /* Ensures the video scales without distortion */
   z-index: -1; /* Send the video to the background */
 }
+
+/* This will be deleted if it does not look good on my phone */
+@media screen and (max-width: 600px) {
+  body {
+    height: 100dvh;
+  }
+  .container {
+    margin-top: 100vh;
+  }
+  .clock-wrapper {
+    width: 150vw;
+  }
+  #pointer {
+    width: 20vw;
+  }
+  
+}
