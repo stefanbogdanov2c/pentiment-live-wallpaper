@@ -1,3 +1,8 @@
+* {
+  user-select: none;
+  pointer-events: none; /* Prevents interaction */
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
